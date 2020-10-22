@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/offers.css">
+		<script src="scripts/offers.js"></script>
+	</head>
+	<body onload="onLoad()">
+		<div class="center-top">
+			<div class="inner-div-one">
+				<div class="call-now">
+					<img src="images/phone-icon.svg" class="ph-imag"/><span>Call Now : 888.888.888</span>
+				</div>
+			</div>
+			<div class="break-div"></div>
+			<div class="inner-div-two">
+				<div class="vertical-center">
+					<span class="spn-bestdeal">Check out our offers</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<select onchange="selectProductType(1);" id="ddlProd">
+				<option value="all">All Products</option>
+				<option value="internet">Internet</option>
+				<option value="tv">TV</option>
+				<option value="phone">Phone</option>
+			</select>
+		</div>
+		
+		<div class="center" id="dynamicAppend" >
+			<!-- <div class="center-div center"> -->
+				<!-- <h3>Disclosure 1</h3> -->
+				<!-- <div  style="float:right;"> -->
+					<!-- <svg height="100" width="100"> -->
+					  <!-- <circle cx="50" cy="50" r="40" stroke="" stroke-width="3" fill="#cccc" /> -->
+					   <!-- <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="20px" font-family="Arial" dy=".3em">$100*</text> -->
+					<!-- </svg>  -->
+				<!-- </div> -->
+				<!-- <div style="float:none;"> -->
+					<!-- <ul> -->
+						<!-- <li>High Speeds</li> -->
+						<!-- <li>Reliable connection</li> -->
+						<!-- <li>Most Popular channels</li> -->
+						<!-- <li>High Speed</li> -->
+						<!-- <li>Reliable connection</li> -->
+						<!-- <li>Most Popular channels</li> -->
+					<!-- </ul> -->
+				<!-- </div> -->
+				
+				<!-- <div> -->
+					<!-- <span>Disclosure3</span> -->
+				<!-- </div> -->
+			<!-- </div> -->
+		</div>
+	</body>
+</html>
